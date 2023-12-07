@@ -38,3 +38,18 @@ variable "project_owner" {
 
 }
 
+variable "hosted_zone_name" {
+
+  type        = string
+  description = "hosted zone name of dhjkprt.shop"
+  default     = "dhjkprt.shop"
+
+}
+
+variable "host_name" {
+
+  type        = string
+  description = "host name for dhjkprt.shop"
+  default     = "terraform"
+
+}
